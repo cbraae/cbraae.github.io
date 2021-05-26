@@ -3,16 +3,23 @@
 .content-wrap {
   width: max-width;
   height: 100vh;
-  margin: 0 auto;
-  padding: 60px;
+  /*padding-top:150px;*/
 }
 
-main {
+body {
   font-family: 'Mukta', sans-serif;
-
+  padding:0;
+  margin: 0;
 }
 
 /* SIDEBAR */
+
+.sidebar:hover{
+  background-color: #607d8b;
+  width: 150px;
+  font-size: 150px;
+}
+
 
 .sidebar {
   height: 100vh;
@@ -24,20 +31,34 @@ main {
   border-right: solid grey;
   overflow-x: hidden;
   padding-top: 16px;
+  font-size: 85px;
+}
+
+
+.dots-container {
+
+  position: absolute;
+  margin-left: 15px;
+  bottom: 10px;
+}
+
+.fa-ellipsis-h {
+  color: white;
+
 }
 
 /* HEADER */
 
-header {
+.main {
   background-color: #b3e2cd;
   text-align: right;
   color:white;
-
 }
-
-header h1 {
+h1 {
   font-family: 'Poiret One', cursive;
   font-size: 6em;
+  margin:0;
+  padding-top:50px;
 }
 
 
@@ -45,6 +66,5 @@ header h1 {
 /* ABOUT */
 
 .about {
-
   background-color: #f4cae4;
 }
